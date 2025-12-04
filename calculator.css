@@ -1,0 +1,193 @@
+body
+{
+    margin: 0px;
+    background-color: rgb(13, 27, 42);
+}
+section
+{
+    display: flex;
+    margin: 0 auto;
+    width: 960px;
+}
+.mine
+{
+    width: 35%;
+    margin: 0 auto;
+    transform: translate(0.30%);
+    margin-top: 25px;
+}
+.btn
+{
+    font-size:20px;
+    padding: 18px 5px;
+    height: 25px;
+    background-color: rgb(206, 161, 68);
+    color: rgb(13, 27, 42);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: rgb(170, 50, 0);
+    color: rgb(206, 161, 68);
+}
+.btn:active
+{
+    box-shadow: 1px 1px 100px inset;
+}
+.menu button
+{
+    width: 120px;
+    margin-left: 185px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(13, 27, 42);
+    color: rgb(206, 161, 68);
+    transition: all 0.5s ease-in-out;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu button:hover
+{
+    text-shadow: 0px 7px 3px ;
+    background-color: rgb(206, 161, 68);
+    color: rgb(13, 27, 42);
+}
+.menu
+{
+    background-color: rgb(206, 161, 68); 
+    padding: 10px;
+}
+.show
+{
+    width: 95%;
+    height: 25px;
+    background-color: rgb(206, 161, 68);
+    color: rgb(13, 27, 42);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 5px;
+    text-align:right;
+    margin-bottom: 10px;
+}
+.line
+{
+    width: 97%;
+    background-color: rgb(206, 161, 68);
+    color: rgb(206, 161, 68);
+    height: 3px;
+}
+.btn0
+{
+    font-size:20px;
+    padding: 18px 5px;
+    height: 25px;
+    background-color: rgb(206, 161, 68);
+    color: rgb(13, 27, 42);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    text-align: center;
+    float: left;
+    width: 45%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn0:hover
+{
+    background-color: rgb(170, 50, 0);
+    color: rgb(206, 161, 68);
+}
+.btn0:active
+{
+    box-shadow: 1px 1px 100px inset;
+}
+.btn1
+{
+    font-size:20px;
+    padding: 18px 5px;
+    height: 25px;
+    background-color: rgb(206, 161, 68);
+    color: rgb(13, 27, 42);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    text-align: center;
+    float: left;
+    width: 21.5%;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.btn1:hover
+{
+    background-color: rgb(170, 50, 0);
+    color: rgb(206, 161, 68);
+}
+.btn1:active
+{
+    box-shadow: 1px 1px 100px inset;
+}
+.btn3
+{
+    font-size:20px;
+    padding: 18px 5px;
+    height: 25px;
+    background-color: rgb(206, 161, 68);
+    color: rgb(13, 27, 42);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+.btn3 input
+{
+    font-size:15px;
+    width: 60px;
+    border: 0px;
+    background-color: rgb(206, 161, 68);
+    color: rgb(13, 27, 42);
+    transition: all 0.5s ;
+}
+.btn3 input:hover
+{
+    background-color: rgb(170, 50, 0);
+    color: rgb(206, 161, 68);
+}
+.btn3:hover
+{
+    background-color: rgb(170, 50, 0);
+    color: rgb(206, 161, 68);
+}
+.btn3:active
+{
+    box-shadow: 1px 1px 100px inset;
+}
+select,option
+{
+    background-color: rgb(206, 161, 68);
+    color: rgb(13, 27, 42);
+    border: 0px;
+    transition: all 0.5s ;
+    border-radius: 5px;
+    font-size: 17px;
+}
+select:hover{
+    background-color: rgb(170, 50, 0);
+    color: rgb(206, 161, 68);
+}
